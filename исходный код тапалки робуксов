@@ -1,0 +1,17 @@
+#include <iostream>
+
+using namespace std;
+
+int main(int argc, char* argv[])
+{
+	setlocale(LC_ALL, "RU");
+	int Rb{};
+	char inp;
+	cout << "ТАПАЛКА РОБУКСОВ\n" << endl;
+	cout << "пишите в консоль что бы начать тапать" << endl;
+	M:
+	cin >> inp;
+	Rb++;
+	cout << "вам начисленно:" << Rb << " робуксов" << endl;
+	goto M;
+}
